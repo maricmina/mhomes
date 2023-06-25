@@ -15,7 +15,7 @@
     #slike img {
         width: 500px !important;
     }
-    .carousel-item img {
+    .karosel img {
         width: 500px !important;
     }
     #carouselExampleCaptions {
@@ -62,6 +62,9 @@
     }
     #section2 {
         height: 750px;
+    }
+    #gallery {
+        height: 0px !important;
     }
     .col-md-6.col-lg-3{
         margin: 0px;
@@ -163,6 +166,9 @@
         flex-direction: column;
         justify-content: center !important;
     }
+    #gallery {
+        height: 800px !important;
+    }
     #carouselExampleCaptions {
         width: 95% !important;
     }
@@ -207,11 +213,14 @@
     .col-xl-4{
         padding: 0px 50px;
     }
-    #section2 {
-        margin-top: 2400px;
+    #tailored, #partnership, #lifestyle {
+        height: 600px;
     }
     #section2 {
-        height: 2050px;
+        margin-top: 200px;
+    }
+    #section2 {
+        height: 1550px;
     }
     .col-md-6.col-lg-3{
         margin-top: 40px;
@@ -230,7 +239,7 @@
         font-size: 40px !important;
     }
     #our-services {
-        height:  1500px !important;
+        height: 1500px !important;
     }
     .inf img {
         width: 350px;
@@ -249,7 +258,7 @@
     }
     #slike img {
         width: 400px !important;
-        margin-left: 20px !important;
+        margin-left: 120px !important;
     }
     header #contact {
         background-image: url('../images/bluehome11.gif') !important;
@@ -261,6 +270,31 @@
     }
     #about {
         height: 1500px !important;
+    }
+    #gallery {
+        height: 300px !important;
+    }
+    .karosel {
+        margin-left: 100px !important;
+    }
+} 
+@media screen and (max-width: 767px) {
+    #tailored, #partnership, #lifestyle {
+        height: 400px;
+    }
+    #section2 {
+        margin-top: 2500px;
+    }
+    #section2 {
+        height: 2050px;
+    }
+    .karosel img {
+        width: 400px !important;
+        margin-left: -50px !important;
+    }
+    #slike img {
+        width: 400px !important;
+        margin-left: 20px !important;
     }
 } 
 @media screen and (max-width: 640px) {
@@ -362,12 +396,12 @@
     }
     #carouselExampleCaptions img {
         width: 250px !important;
-        margin-left: 100px !important;
+        margin-left: 10px !important;
     }
     #slike img {
         width: 250px !important;
         margin-bottom: 50px;
-        margin-left: 70px !important;
+        margin-left: 80px !important;
     }
     #footer1 {
         margin-top: 0px !important;
@@ -383,6 +417,9 @@
     #about {
         height: 1800px !important;
     }
+    #gallery {
+        height: 800px !important;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -390,16 +427,19 @@
         margin-left: 80px !important;
     }
     #slike img {
-        margin-left: 50px !important;
+        margin-left: 70px !important;
+    }
+    #carouselExampleCaptions img {
+        margin-left: 0px !important;
     }
 }
 
 @media screen and (max-width: 430px) {
     #carouselExampleCaptions img {
-        margin-left: 60px !important;
+        margin-left: -30px !important;
     }   
     #slike img {
-        margin-left: 30px !important;
+        margin-left: 40px !important;
     }
     header #contact {
         background-image: url('../images/bluehome111.gif') !important;
@@ -409,6 +449,15 @@
     }
     #info {
         height: 750px !important;
+    }
+}
+
+@media screen and (max-width: 401px) {
+    #carouselExampleCaptions img {
+        margin-left: -50px !important;
+    }   
+    #slike img {
+        margin-left: 20px !important;
     }
 }
 
@@ -438,15 +487,15 @@
         position: relative;
         right: 10% !important;
     }
-    #carouselExampleCaptions {
-        width: 60%;
+    .karosel {
+        margin-left: 0px !important;
     }
     #carouselExampleCaptions img {
-        width: 220px !important;
+        width: 200px !important;
         margin-left: 60px !important;
     }
     #slike img {
-        width: 220px !important;
+        width: 200px !important;
         margin-left: 30px !important;
     }
     #footer1 {
