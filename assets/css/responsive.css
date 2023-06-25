@@ -1,0 +1,455 @@
+@media screen and (max-width: 1400px) {
+    .opis,.cena {
+        margin: 0% 3%;
+    }
+    #tailored, #lifestyle {
+        height: 480px;
+    }
+    #tailored .naslov1, #tailored .tekst{
+        position: relative;
+        bottom: 6%;
+    }
+    .inf img {
+        width: 350px;
+    }
+    #slike img {
+        width: 500px !important;
+    }
+    .carousel-item img {
+        width: 500px !important;
+    }
+    #carouselExampleCaptions {
+        width: 45% !important;
+        text-align: center;
+    }
+    #slike {
+        margin-left: 100px !important;
+    }
+    #biografija {
+        padding-bottom: 0px !important;
+        width: 30%;
+        font-size: 20px;
+        border-left: 3px solid #4A697F;
+        border-bottom: 3px solid #4A697F;
+        border-radius: 3px;
+    }
+}   
+  
+@media screen and (max-width: 1320px) {
+    .container-fluid .column {
+        background-image: url('../images/5blur2.gif');
+        background-position: center;
+    }
+    #section2 i{
+        font-size: 28px;
+        padding: 15px;
+    }
+    #tailored, #lifestyle {
+        height: 470px;
+    }
+    footer {
+        height: 500px;
+    }
+    .inf .overlay {
+        position: relative;
+        right: 7% !important;
+        bottom: 7% !important;
+    }
+}
+@media screen and (max-width: 1200px) {
+    #section1 {
+        height: 2600px;
+    }
+    #section2 {
+        height: 750px;
+    }
+    .col-md-6.col-lg-3{
+        margin: 0px;
+        padding: 0px 5px;
+    }
+    #tailored, #lifestyle, #partnership {
+        height: 520px;
+    }
+    #tailored .naslov1, #tailored .tekst{
+        position: relative;
+        bottom: 5%;
+    }
+    .carousel-inner {
+        margin-bottom: 0px;
+    }    
+    footer {
+        height: 900px;
+    }
+    #about_us_header {
+        background-image: url('../images/aboutus1.gif') !important;
+    }
+    #agents {
+        height: 2000px !important;
+    }
+    .inf img {
+        width: 500px;
+    }
+    .inf .overlay {
+        position: relative;
+        right: 5% !important;
+    }
+    #slike {
+        margin-left: 30px !important;
+    }
+    #footer1 {
+        height: 1000px !important;
+        margin-top: 900px !important;
+    }
+    #footer2 {
+        height: 1000px !important;
+        margin-top: 0px !important; 
+    }
+    #info {
+        height: 700px !important;
+    }
+    #about {
+        height: 1400px !important;
+    }
+    #biografija, #basic-info, #moja-slika {
+        width: 100% !important;
+        margin: 30px 0px !important;
+    }
+    #biografija, #basic-info {
+        border: none !important;
+        border-top: 3px solid #4A697F !important;
+        border-bottom: 3px solid #4A697F !important;
+        padding-bottom: 30px !important;
+    }
+}
+@media screen and (max-width: 1001px) {
+    #naslov h1 {
+        font-size: 45px;
+    }
+    #naslov {
+        font-size: 17px;
+    }
+    a{
+        font-size: 14px;
+    }
+    #section2 {
+        height: 1050px;
+    }
+    .col-md-6.col-lg-3 {
+        padding: 0px 25px;
+    }
+    #tailored {
+        height: 685px;
+    }
+    #tailored .tekst, #lifestyle .tekst, #partnership .tekst {
+        margin-top: 50px;
+    }
+    #partnership, #lifestyle {
+        height: 690px;
+    }
+    #section3 {
+        height: 800px;
+    }
+    #logo a img{
+        width: 70px;
+    }
+    ul {
+        text-align: center;
+    }
+    #our-services {
+        height:  800px !important;
+    }
+    #gallery .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    #carouselExampleCaptions {
+        width: 95% !important;
+    }
+    #carouselExampleCaptions img {
+        width: 600px !important;
+        margin-left: 30px;
+    }
+    #slike img {
+        width: 600px !important;
+    }
+    #forma {
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 995px) {
+    #tailored .tekst {
+        margin-top: 40px;
+    }
+    #tailored {
+        height: 420px;
+    }
+    #tailored .naslov1{
+        margin-top: 40px;
+    }
+    #partnership, #tailored {
+        height: 690px;
+    }
+    #slike img {
+        width: 600px !important;
+    }
+}
+@media screen and (max-width: 990px) {
+    #partnership, #tailored, #lifestyle {
+        height: 420px;
+    }
+    #section3 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .col-xl-4{
+        padding: 0px 50px;
+    }
+    #section2 {
+        margin-top: 2400px;
+    }
+    #section2 {
+        height: 2050px;
+    }
+    .col-md-6.col-lg-3{
+        margin-top: 40px;
+        padding: 0px 80px;
+    }
+    #section3 {
+        height: 1000px;
+    }
+    #naslov h1 {
+        font-size: 35px;
+    }
+    #naslov p {
+        font-size: 14px;
+    }
+    #naslov1 h1 {
+        font-size: 40px !important;
+    }
+    #our-services {
+        height:  1500px !important;
+    }
+    .inf img {
+        width: 350px;
+    }
+    #agents {
+        height: 1600px !important;
+    }
+    .inf .overlay {
+        position: relative;
+        right: 7% !important;
+        bottom: 5%;
+    }
+    #carouselExampleCaptions img {
+        width: 400px !important;
+        margin-left: 50px;
+    }
+    #slike img {
+        width: 400px !important;
+        margin-left: 20px !important;
+    }
+    header #contact {
+        background-image: url('../images/bluehome11.gif') !important;
+        background-position: center;
+        height: 530px !important;
+    }
+    #forma form {
+        margin-bottom: 50px;
+    }
+    #about {
+        height: 1500px !important;
+    }
+} 
+@media screen and (max-width: 640px) {
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    input, select {
+        margin: 10px 0px;
+        width: 180px;
+    }
+    .container-fluid .column {
+        background-image: url('../images/5blur3.gif');
+        background-position: center;
+    }
+    #section3 {
+        height: 1200px;
+    }
+    #osoba1, #osoba2, #osoba3, #osoba4, #osoba5, #osoba6 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #mail {
+        display: flex;
+        flex-direction: column;
+    }
+    #text {
+        width: 250px;
+        height: 40px;
+        margin-right: 0px;
+    }
+    #button1 {
+        width: 150px;
+        height: 40px;
+    }
+    #about_us_header {
+        background-image: url('../images/aboutus2.gif') !important;
+        height: 500px !important;
+    }
+    header #author  {
+        background-image: url('../images/blue1.jpg') !important;
+        height: 500px !;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #section2{
+        height: 2200px;
+    }
+    .col-md-6.col-lg-3{
+        margin-top: 10px;
+        padding: 0px 30px;
+    }
+    #section3 {
+        height: 1400px;
+    }
+    #copy {
+        position: relative;
+        top: 0px;
+    }
+    footer {
+        height: 1000px;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav button {
+        margin: 10px auto;
+    }
+    #logo {
+        margin-left: 50px;
+    }
+    #naslov p {
+        display: none;
+    }
+    #naslov1 h1 {
+        font-size: 30px !important;
+    }
+    #about_us_header {
+        height: 530px !important;
+    }
+    #our-services {
+        height: 1500px !important;
+    }
+    .inf img {
+        width: 300px;
+    }
+    #agents {
+        height: 1500px !important;
+    }
+    .inf .overlay {
+        position: relative;
+        right: 8% !important;
+    }
+    #carouselExampleCaptions {
+        width: 90% !important;
+    }
+    #carouselExampleCaptions img {
+        width: 250px !important;
+        margin-left: 100px !important;
+    }
+    #slike img {
+        width: 250px !important;
+        margin-bottom: 50px;
+        margin-left: 70px !important;
+    }
+    #footer1 {
+        margin-top: 0px !important;
+        height: 1000px !important;
+    }
+    #contact {
+        height: 510px !important;
+    }
+    #contact #naslov2 h1, #author #naslov3 h1 {
+        font-size: 30px !important;
+        margin-top: -20px !important;
+    }
+    #about {
+        height: 1800px !important;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #carouselExampleCaptions img {
+        margin-left: 80px !important;
+    }
+    #slike img {
+        margin-left: 50px !important;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #carouselExampleCaptions img {
+        margin-left: 60px !important;
+    }   
+    #slike img {
+        margin-left: 30px !important;
+    }
+    header #contact {
+        background-image: url('../images/bluehome111.gif') !important;
+    }
+    #footer2 {
+        height: 1150px !important;
+    }
+    #info {
+        height: 750px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #tailored {
+        height: 470px;
+    }
+    #tailored .naslov1{
+        margin-top: 0px;
+    }
+    #partnership, #lifestyle {
+        height: 480px;
+    }
+    #section3 {
+        height: 1600px;
+    }
+    footer {
+        height: 1150px;
+    }
+    .inf img {
+        width: 250px;
+    }
+    #agents {
+        height: 1300px !important;
+    }
+    .inf .overlay {
+        position: relative;
+        right: 10% !important;
+    }
+    #carouselExampleCaptions {
+        width: 60%;
+    }
+    #carouselExampleCaptions img {
+        width: 220px !important;
+        margin-left: 60px !important;
+    }
+    #slike img {
+        width: 220px !important;
+        margin-left: 30px !important;
+    }
+    #footer1 {
+        height: 1300px !important;
+    }
+}
